@@ -77,4 +77,4 @@ jobs:
           max_attempts: 5
           retry_on: any
           command: |
-            python -m mirror sync -R ${{ matrix.game }} -n ${{ matrix.game }}
+            python -m mirror sync -g ${{ matrix.game }} -n ${{ matrix.game }}
