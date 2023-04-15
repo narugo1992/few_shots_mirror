@@ -1,0 +1,5 @@
+hfmirror>=0.0.3
+gchar>=0.0.9
+pixivpy3
+git+https://github.com/deepghs/imgutils.git@main
+click
